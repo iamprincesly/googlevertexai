@@ -19,7 +19,7 @@ final class ModelResponse
         $this->model = $data['modelVersion'];
     }
 
-    public function text(): string
+    public function answer(): string
     {
         return collect($this->candidates[0]->content->parts)
                 ->filter(fn (PartContract $part) => $part instanceof TextPart)
