@@ -1,6 +1,6 @@
 {
     "name": "iamprincesly/googlevertexai",
-    "version": "1.0.0",
+    "version": "0.1.0",
     "description": "Laravel wrapper for Google Vertex AI API",
     "type": "library",
     "keywords": [
