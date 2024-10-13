@@ -1,0 +1,52 @@
+{
+    "name": "iamprincesly/googlevertexai",
+    "version": "1.0.0",
+    "description": "Laravel wrapper for Google Vertex AI API",
+    "type": "library",
+    "keywords": [
+        "laravel",
+        "google",
+        "vertexai"
+    ],
+    "authors": [
+        {
+            "name": "Sylvanus Etim",
+            "email": "iamprincesly@gmail.com"
+        }
+    ],
+    "require": {
+        "google/auth": "^1.42",
+        "illuminate/support": "^11.26"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Iamprincesly\\GoogleVertexAI\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Iamprincesly\\GoogleVertexAI\\Tests\\": "tests"
+        }
+    },
+    "require-dev": {
+        "pestphp/pest": "^3.3"
+    },
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Iamprincesly\\GoogleVertexAI\\GoogleVertexAIServiceProvider"
+            ],
+            "aliases": {
+                "VertexAI": "Iamprincesly\\GoogleVertexAI\\Facades\\VertexAI"
+            }
+        }
+    }
+}
