@@ -1,6 +1,11 @@
 # Google Vertex AI for Laravel
 Laravel wrapper for Google Vertex AI with Gemini models
 
+Installation 
+```
+composer require iamprincesly/googlevertexai
+```
+
 Usage is simple
 
 ```php
