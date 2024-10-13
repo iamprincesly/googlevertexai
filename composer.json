@@ -6,7 +6,8 @@
     "keywords": [
         "laravel",
         "google",
-        "vertexai"
+        "vertexai",
+        "gemini"
     ],
     "authors": [
         {
